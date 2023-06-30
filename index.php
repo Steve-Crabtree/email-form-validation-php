@@ -18,7 +18,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
             $msg = 'Please use a valid email';
             $msgClass = 'alert-danger'; 
         } else {
-            $toEmail = 'stevecrabtree1965@gmail.com'; // I need to set up a hosting site and email for this to work
+            $toEmail = '@gmail.com'; // I need to set up a hosting site and email for this to work
             $subject = 'Contact Request From '.$name;
             $body = '<h2>Contact Request</h2>
             <h4>Name</h4><p>'.$name.'</p>
